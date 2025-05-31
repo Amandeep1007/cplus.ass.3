@@ -22,7 +22,7 @@ public:
     void setName(string n) { if (!n.empty()) name = n; }
 
     int getAge() { return age; }
-    void setAge(int a) { if (a > 0 && a < 120) age = a; }
+    void setAge(int a) { if (a > 0 && a < 110) age = a; }
 
     int getID() { return id; }
     void setID(int i) { if (i > 0) id = i; }
